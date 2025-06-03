@@ -1,0 +1,18 @@
+<!-- templates/sucessLogin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Login</title>
+    <link rel="stylesheet" href="/static/w3.css">
+</head>
+<body>
+    <h1 class="w3-left w3-margin-left w3-margin-top">Welcome: {{ username }}</h1>
+
+    <!-- Center the student table -->
+    <div class="w3-container">
+        {% include 'student.html' %}
+    </div>
+</body>
+</html>
